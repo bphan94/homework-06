@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <!-- link bootstrap -->
+    <!-- link stylesheet -->
+    <!-- add font -->
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <h3 class="navbar-text mx-auto text-white">
+            Weather Dashboard
+        </h3>
+    </nav>
+
+    <!-- search button -->
+    <div class="container">
+        <div class="row">
+            <div class =""><h4>Search a City!:</h4></div>
+            <div class="row">
+                <input type="text" class="searchBox">
+                <button class="searchBtn" type="submit">Search</button>
+            </div>
+        </div>
+        <!-- div for user city searches -->
+        <div class="citiesDiv"></div>
+    </div>
+
+    <!-- div to display -->
+    <div class="">
+        <div class="row">
+            <div class="tempDisplay">
+                <div class="row city-name"></div>
+                <div class="row date"></div>
+                <div class="row temperature"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="">
+        <div class="forecast" style="width: 100%"></div>
+    </div>
+
+    <!-- link jquery -->
+    <!-- link moments.js -->
+    <script src="script.js"></script>
+</body>
+</html>
